@@ -12,4 +12,10 @@
 		status = "okay";
 		de-gpios = <&arduino_header 15 GPIO_ACTIVE_LOW>;	/* D9 */
 	};
+
+	current-speed = <9600>;
+};
+
+&uart0 {
+	current-speed = <9600>;
 };
