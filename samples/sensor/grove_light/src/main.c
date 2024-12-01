@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	const struct device *const dev = DEVICE_DT_GET_ONE(seeed_grove_light);
+	const struct device *const dev = DEVICE_DT_GET_ONE(rohm_bh1750);
 
 	if (!device_is_ready(dev)) {
 		printk("sensor: device not ready.\n");

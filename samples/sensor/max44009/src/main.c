@@ -17,7 +17,7 @@
 
 int main(void)
 {
-	const struct device *const dev = DEVICE_DT_GET_ONE(maxim_max44009);
+	const struct device *const dev = DEVICE_DT_GET_ONE(rohm_bh1750);
 	struct sensor_value val;
 	uint32_t lum = 0U;
 
